@@ -36,12 +36,27 @@ h3 {
 
 .header {
   height: 60px;
-  border-bottom:1px solid #eee;
+  width:100%;
+  background-color: rgba(34,49,52,0.9);
+  position:fixed;
+  top:0;
+  z-index:10;
 }
 
 .header-logo img {
   height: 60px;
   width: auto;
+  float:left;
+}
+
+.header-list li {
+  float: right;
+}
+
+.header-list a {
+  padding:0px 30px;
+  color: white;
+  
 }
 
 .main-wrapper {
